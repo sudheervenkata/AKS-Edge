@@ -74,6 +74,7 @@ jobs:
               "CpuCount"= 4
               "MemoryInMB"= 4096
               "DataSizeInGB"= 20
+              "TimeoutSeconds"= 900
             }
 
           $AksEdgeConfigFilePath = "$(Agent.BuildDirectory)\self\tools\aksedge-config.json"
