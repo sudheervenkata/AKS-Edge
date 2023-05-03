@@ -73,7 +73,6 @@ jobs:
           $WindowsConfig = [PSCustomObject]@{ 
               "CpuCount"= 4
               "MemoryInMB"= 4096
-              "DataSizeInGB"= 20
               "TimeoutSeconds"= 900
             }
 
